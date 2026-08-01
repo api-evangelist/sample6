@@ -1,7 +1,27 @@
 aid: sample6
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sample6.png
 name: Sample6
-description: Sample6 is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sample6 was a food-safety technology company (a Canaan Partners portfolio
+  company) that developed rapid, bioluminescence-based pathogen detection and
+  environmental monitoring products for the food industry, aimed at catching
+  contamination such as Listeria, Salmonella, and E. coli before product
+  shipped. The business was acquired and absorbed into IEH Laboratories &
+  Consulting Group; the sample6.com domain now redirects to iehinc.com. No
+  independent developer portal, public API, or machine-readable API artifacts
+  survive, so this record is retained as a historical company profile rather
+  than an active API provider.
 url: https://raw.githubusercontent.com/api-evangelist/sample6/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,28 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: iehinc
+x-redirects-to: https://iehinc.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Food Safety
+- Pathogen Detection
+- Diagnostics
+- Biotechnology
+- Environmental Monitoring
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
